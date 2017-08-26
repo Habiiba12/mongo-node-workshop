@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
             db.close();
             // res.json(posts);
             res.render('index', {
-                title: "Michael's profile",
+                title: "Habiiba's profile",
                 subheading: "A modern Website built in Node with Handlebars",
                 posts: posts
             });
