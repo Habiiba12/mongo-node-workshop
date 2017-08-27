@@ -36,4 +36,7 @@ router.get('/contact', function (req, res) {
     res.render('contact');
 });
 
+router.get('/customer-serves', function (req, res) {
+    res.render('customer-serves');
+});
 module.exports = router;
